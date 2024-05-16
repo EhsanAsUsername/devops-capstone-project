@@ -53,7 +53,6 @@ class TestAccountService(TestCase):
         """Runs once after each test case"""
         db.session.remove()
 
-  
     ######################################################################
     #  H E L P E R   M E T H O D S
     ######################################################################
@@ -73,7 +72,6 @@ class TestAccountService(TestCase):
             accounts.append(account)
         return accounts
 
-  
     ######################################################################
     #  A C C O U N T   T E S T   C A S E S
     ######################################################################
